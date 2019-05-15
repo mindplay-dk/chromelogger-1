@@ -7,6 +7,11 @@ application's server-side code.
 
 Install with NuGet: http://nuget.org/packages/ChromeLogger/
 
+Use with the newer [Server Log](https://chrome.google.com/webstore/detail/server-log/lophlnbmepajcpfhafaciibembckdpih)
+extension, if you prefer a dedicated tab for the server-side log output - or the original
+[ChromeLogger](https://chrome.google.com/webstore/detail/chrome-logger/noaneddfkdjfnfdakjjmocngnfkfehhd) extension,
+if you prefer to see your server-side log-entries in the "Console" tab.
+
 ## Setup
 
 At the end of your request, you'll need to set the custom ChromeLogger header, here's an example:
